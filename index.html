@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ingeniería de Software | UCompensar</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+<header class="header">
+  <div class="topbar">
+    <div class="container topbar__content">
+      <div class="logo"><img class="logo__img" src="imagenes/logouni.png" alt="UCompensar"></div>
+      <div class="topbar__right">
+        <ul class="topbar__menu">
+          <li><a href="#">Graduados</a></li>
+          <li><a href="#">Estudiantes</a></li>
+          <li><a href="#">Estado de Admisión</a></li>
+          <li><a href="#">Reingresos</a></li>
+          <li><a href="#">Pago en Línea</a></li>
+          <li><a href="#">Aplicativos</a></li>
+          <li><a href="#">Emisora</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <a href="#" class="btn btn--orange topbar__cta">Trabaja con nosotros</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container header__content">
+    <nav class="nav">
+      <ul class="nav__menu">
+        <li><a href="#">La institución</a></li>
+        <li><a href="#">Estudia con Nosotros</a></li>
+        <li><a href="#">Facultades</a></li>
+        <li><a href="#">Programas</a></li>
+        <li><a href="#">Campus AV 68</a></li>
+        <li><a href="#">SENA</a></li>
+        <li><a href="#">Zona financiera</a></li>
+        <li><a href="#">EdTech</a></li>
+      </ul>
+      <button class="nav__search" aria-label="Buscar">🔍</button>
+    </nav>
+  </div>
+</header>
+
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <p class="kicker">Estudia</p>
+        <h1 class="hero__title">Ingeniería de Software</h1>
+        <p class="hero__meta">SNIES: 109130 / Resolución: 9058 - Agosto 28 de 2019. Vig 7 años.</p>
+        <ul class="hero__list">
+          <li><strong>Duración del programa:</strong> 10 semestres</li>
+          <li><strong>Facultad:</strong> Ingeniería</li>
+          <li><strong>Jornada:</strong> Diurna y nocturna</li>
+        </ul>
+        <a class="btn btn--cyan" href="#">Plan de estudios ↓</a>
+      </div>
+      <div class="hero__media" aria-hidden="true">
+       <img src="imagenes/estudiantes.jpg" alt="estudiantes">
+        <div class="hero__mock"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="cards container">
+    <article class="card">
+      <div class="chip">VALOR AFILIADO</div>
+      <h2 class="price">$4.209.120</h2>
+      <p class="note">Primer semestre</p>
+      <p class="tag">10% dto para afiliados a la caja de compensación Compensar de cualquier categoría.</p>
+    </article>
+
+    <article class="card">
+      <div class="chip">VALOR PROGRAMA</div>
+      <h2 class="price">$4.676.800</h2>
+      <p class="note">Primer semestre</p>
+      <p class="tag">Inversión por semestre de pregrado.</p>
+    </article>
+
+    <article class="card">
+      <div class="chip">VALOR BECADO</div>
+      <h2 class="price">$1.169.200</h2>
+      <p class="note">Primer semestre</p>
+      <p class="tag">Beca del 75% para afiliados Compensar A o B, que cumplan con los requisitos (Cupos limitados).</p>
+    </article>
+  </section>
+
+  <section class="form">
+    <div class="container">
+      <h2>Déjanos tus datos</h2>
+      <form class="grid">
+        <input type="text" placeholder="Nombre" required>
+        <input type="text" placeholder="Apellidos" required>
+        <input type="text" placeholder="Documento de Identidad" required>
+        <input type="email" placeholder="Correo" required>
+        <input type="tel" placeholder="Celular" required>
+
+        <label class="select">
+          <span>¿Cuándo planeas iniciar?</span>
+          <select>
+            <option>Inmediatamente</option>
+            <option>Próximo semestre</option>
+            <option>En 1 año</option>
+          </select>
+        </label>
+
+        <label class="select">
+          <span>¿Necesitas financiación?</span>
+          <select>
+            <option>Sí</option>
+            <option>No</option>
+          </select>
+        </label>
+
+        <label class="select">
+          <span>¿Cuál es tu nivel de escolaridad?</span>
+          <select>
+            <option>9°</option>
+            <option>10°</option>
+            <option>11°</option>
+            <option>Bachiller</option>
+          </select>
+        </label>
+
+        <label class="select">
+          <span>Canal preferido de contacto</span>
+          <select>
+            <option>Todos</option>
+            <option>Whatsapp</option>
+            <option>Llamada</option>
+            <option>Email</option>
+          </select>
+        </label>
+
+        <label class="check">
+          <input type="checkbox" required />
+          <span>Acepto la Política de Protección de Datos Personales.</span>
+        </label>
+
+        <button class="btn btn--orange form__submit" type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="titulaciones">
+    <div class="container">
+      <h2>Titulaciones</h2>
+      <div class="tits">
+        <article class="tit">
+          <h3>Técnica Profesional en:</h3>
+          <p class="tit__name">PROGRAMACIÓN DE APLICACIONES DE SOFTWARE</p>
+          <h6>Resolución 9059 del 28 de agosto de 2019</h6>
+          <h6>Años de vigencia: 7 años</h6>
+          <h6>SNIES: 108334</h6>
+          <a href="#" class="btn btn--pill">Ver tarifas de créditos aquí</a>
+        </article>
+        <article class="tit">
+          <h3>Tecnología en:</h3>
+          <p class="tit__name">DESARROLLO DE APLICACIONES WEB Y MÓVILES</p>
+            <h6>Resolución 9057 del 28 de agosto de 2019</h6>
+            <h6>Años de vigencia: 7 años</h6>
+            <h6>SNIES: 108335</h6>
+          <a href="#" class="btn btn--pill">Ver tarifas de créditos aquí</a>
+        </article>
+        <article class="tit">
+          <h3>Profesional en:</h3>
+          <p class="tit__name">INGENIERÍA DE SOFTWARE</p>
+            <h6>Resolución 9058 del 28 de agosto de 2019</h6>
+            <h6>Años de vigencia: 7 años</h6>
+            <h6>SNIES: 109130</h6>
+          <a href="#" class="btn btn--pill">Ver tarifas de créditos aquí</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="futuro">
+  <div class="container futuro__grid">
+    <div class="futuro__texto">
+      <h2><span>Conoce</span> tu futuro académico</h2>
+      <p>
+        Como profesional en Ingeniería de Software serás capaz de diseñar, desarrollar y asegurar la calidad 
+        de soluciones tecnológicas dominando todo el ciclo de vida del software con nuestro modelo por ciclos, 
+        obtén hasta tres titulaciones y elige entre dos rutas: <strong>Desarrollo</strong> o <strong>Calidad</strong>. 
+        Fortalece tu perfil con experiencia en proyectos reales, metodologías ágiles y certificaciones de la industria, 
+        manejando la gestión de los tiempos, recursos y equipos para destacar en el sector TI. 
+        Podrás crear apps móviles eficientes para plataformas Android e iOS y desarrollarás aplicaciones completas 
+        con enfoque <strong>Full Stack (Frontend y Backend)</strong>.
+      </p>
+    </div>
+    <div class="futuro__video">
+      <iframe width="560" height="315" src="https://www.youtube.com/shorts/4anzGxxz79Y" 
+        title="Ingeniería de Software - UCompensar" frameborder="0"
+        allowfullscreen></iframe>
+
+    </div>
+  </div>
+</section>
+
+  <footer class="footer">
+    <div class="container">
+     Hecho por Lisa Marin y Laura Garzon - Demo
+    </div>
+  </footer>
+
+  <script>
+    // JavaScript para funcionalidad adicional si es necesario
+  </script>
+</body>
+</html>
